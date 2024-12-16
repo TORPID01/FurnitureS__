@@ -11,6 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/product/:id" element={<ProductDetails />} />
+          <Route path="*" element={<>Not found the product</>} />
         </Routes>
       </div>
     </Router>
